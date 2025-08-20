@@ -19,7 +19,7 @@ class complex{
 
 complex complex:: operator +(complex c){
     complex temp;
-    temp.x = x + c.x;
+    temp.x = x + c.x; //temp.x= this->x(meaning it  point to x of c1 or current object c1)
     temp.y = y + c.y;
     return temp;
 }
