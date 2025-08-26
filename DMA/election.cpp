@@ -30,7 +30,8 @@ int main(){
     cin>>n;
     ptr = new election[n];
     for(i=0;i<n;i++){
-        ptr[i].input();            }
+        ptr[i].input();  //ptr[i]->input();        
+      }
     election::totalrecords();
     for(i=0;i<n;i++){
         ptr[i].show();
