@@ -7,7 +7,7 @@ class A{
     int y;
     public:
     void enter(){
-        cout<<"Enter x and y:"
+        cout<<"Enter x and y:";
         cin>>x>>y;
     }
     friend class B;
@@ -15,7 +15,7 @@ class A{
 
 class B{
     public:
-    void display( A k){
+    void display(A k){
         cout<<k.x<<endl<<k.y;
     }
 

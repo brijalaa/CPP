@@ -31,14 +31,14 @@ class polar //source class
     }
 };
    
-class cartesian{
+class cartesian{ //destination class
         float  xco, yco;
         public:
         cartesian(){
             xco=0;
             yco=0;
         }
-        cartesian(polar p){
+        cartesian(polar p){ //constructor takes the bject of source class
             xco= p.return_rad()* cos(p.return_ang());
             yco = p.return_rad()* sin(p.return_ang());
         }
